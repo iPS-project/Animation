@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.10/lottie_svg.min.js"></script>
+    <style>
+        #lottie{
+            height: 500px;
+            width: 500px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="lottie"></div>
+    <script>
+        let animation = bodymovin.loadAnimation({
+            container: document.getElementById('lottie'),
+            path: 'https://drive.google.com/file/1sG7KmVZqVOW3cBnnUStcxJY0tvdZPpPw',
+            renderer: 'svg',
+            loop: false,
+        })
+    </script>
+</body>
+</html>
